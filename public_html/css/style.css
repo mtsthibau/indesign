@@ -1,0 +1,218 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/07/2017, 15:44:04
+    Author     : Matheus Thibau
+*/
+
+#logo{
+    height: 150px;
+}
+
+.navbar-custom .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+    margin-top: 20px;
+
+}
+
+header {
+    background-image: url('../img/banner2.jpg');
+}
+
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+header .intro-text .intro-lead-in {
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: 200;
+    font-style: italic;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+header .intro-text .intro-heading {
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.8em;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+@media (min-width: 768px) {
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+    header .intro-text .intro-lead-in {
+        font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 1.3em;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    header .intro-text .intro-heading {
+        font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 0.8em;
+        font-weight: 100;
+        line-height: 75px;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+.texto-header{
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 3em;
+    font-weight: 200;
+}
+
+.texto-header .intro-heading{
+    font-size: 0.9em;
+    font-weight: 200;
+    margin-bottom: 60px
+}
+
+.text-primary, a{
+    color: #333333
+}
+
+.btn-xl{
+    background-color: #FFF;
+    border-color: #FFF;
+    color: #333333
+}
+
+
+.btn-xl:hover{
+    background-color: #333333;
+    border-color: #333333;
+    color: #FFF
+}
+
+.btn-xl:focus{
+    background-color: #333333;
+    border-color: #333333;
+    color: #FFF
+}
+
+.navbar-custom .nav li a:hover{
+    color: #cccccc
+}
+
+.navbar-custom .nav li a:active{
+    color: #cccccc
+}
+
+
+.navbar-custom .navbar-nav>.active>a:focus, .navbar-custom .navbar-nav>.active>a:hover {
+    color: #333333;
+    background-color: #fff;
+}
+.navbar-custom .nav li a:focus, .navbar-custom .nav li a:hover{
+    color: #fff
+}
+
+.navbar-custom .navbar-nav>.active>a {
+    border-radius: 3px;
+    color: #333333;
+    background-color: #fff;
+}
+.navbar-right {
+    margin-top: 24px;
+}
+
+.navbar-custom.affix {
+    background-color: #222;
+    padding: 10px 0;
+
+}
+.navbar-custom.affix #logo{
+    height: 90px;
+}
+.navbar-custom.affix .navbar-right {
+    margin-top: 0px;
+}
+
+::-webkit-input-placeholder {
+    color: #333333 !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #333333 !important;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #333333 !important;
+}
+
+:-ms-input-placeholder {  
+    color: #333333 !important;
+}
+
+.navbar-custom .navbar-toggle{
+    background-color: #fff;
+    border-color: #fff;
+    color: #333333;
+    font-size: 12px;
+}
+
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
+    background-color: #FFF;
+}
+
+
+
+@media (max-width: 400px) {
+
+    header .intro-text .intro-lead-in {
+        font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 0.8em;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    header .intro-text .intro-heading {
+        font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 0.5em;
+        font-weight: 100;
+        line-height: 25px;
+        margin-bottom: 50px;
+    }
+
+
+    #logo{
+        height: 50px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #logo{
+        height: 60px !important;
+    }
+}
+
+
+.bxslider{
+    width: auto;
+    position: relative;
+
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.white-text{
+    color:rgba(221, 221, 221, 1) !important;
+}
+.contato-text{
+    color:#FFF; 
+    text-transform: none;
+}
+.text-primary, a{
+    
+}
